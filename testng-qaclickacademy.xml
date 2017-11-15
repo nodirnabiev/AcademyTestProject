@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="QA Click Academy Application Automation Test Suite">
+	<listeners>
+		<listener class-name="academy.test.util.Listener"></listener>
+		<listener class-name="academy.test.report.ExtentReportNG"></listener>
+	</listeners>
+	<test name="QA Click Application Test Case">
+		<classes>
+			<class name="academy.test.testcases.HomePageTest"></class>
+			<class name="academy.test.testcases.LoginPageTest"></class>
+			<class name="academy.test.testcases.RegisterPageTest"></class>
+		</classes>
+	</test>
+</suite>

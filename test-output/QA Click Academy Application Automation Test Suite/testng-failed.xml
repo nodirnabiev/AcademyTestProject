@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [QA Click Academy Application Automation Test Suite]">
+  <listeners>
+    <listener class-name="academy.test.util.Listeners"/>
+  </listeners>
+  <test name="QA Click Application Test Case(failed)">
+    <classes>
+      <class name="academy.test.testcases.RegisterPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="signUpOnQaClickAcademy"/>
+        </methods>
+      </class> <!-- academy.test.testcases.RegisterPageTest -->
+    </classes>
+  </test> <!-- QA Click Application Test Case(failed) -->
+</suite> <!-- Failed suite [QA Click Academy Application Automation Test Suite] -->
